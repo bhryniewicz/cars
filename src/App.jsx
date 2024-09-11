@@ -42,10 +42,10 @@ function App() {
             className="absolute right-0 top-[450px]"
           />
           <div className="flex flex-col gap-x-6 gap-y-3 sm:flex-row">
-            <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold text-xs sm:text-base hover:bg-white hover:text-[#0147FF] hover:border-[1px] hover:border-[#0147FF] duration-300">
+            <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold text-xs sm:text-base hover:bg-white hover:text-[#0147FF] hover:border-[1px] hover:border-[#0147FF] hover:-m-[1px]">
               Zobacz zdjecia
             </button>
-            <button className="bg-white px-6 py-3 rounded-lg text-[#0147FF] border-[1px] border-[#0147FF] font-semibold text-xs sm:text-base hover:bg-[#0147FF] hover:text-white  duration-300">
+            <button className="bg-white px-6 py-3 rounded-lg text-[#0147FF] border-[1px] border-[#0147FF] font-semibold text-xs sm:text-base hover:bg-[#0147FF] hover:text-white duration-300">
               Zadzwon do nas
             </button>
           </div>
