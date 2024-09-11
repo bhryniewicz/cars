@@ -27,9 +27,9 @@ export const Menu = ({ galleryRef, faqRef, setIsMenuOpen, isMenuOpen }) => {
               FaQ
             </li>
           </ul>
-          <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold z-10 hidden sm:block hover:bg-white hover:text-[#0147FF] hover:border-[1px] hover:border-[#0147FF] hover:-m-[1px] duration-300">
+          <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold z-10 hidden sm:block hover:bg-white hover:text-[#0147FF] hover:border-[1px] hover:border-[#0147FF] hover:-m-[1px]">
             Zadzwon do nas
-          </button>{" "}
+          </button>
         </>
         <button
           className="sm:hidden uppercase text-[#0147FF] tracking-widest"
