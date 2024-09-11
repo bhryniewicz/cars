@@ -27,7 +27,7 @@ export const Menu = ({ galleryRef, faqRef, setIsMenuOpen, isMenuOpen }) => {
               FaQ
             </li>
           </ul>
-          <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold z-10 hidden sm:block">
+          <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold z-10 hidden sm:block hover:bg-white hover:text-[#0147FF] duration-300">
             Zadzwon do nas
           </button>{" "}
         </>
