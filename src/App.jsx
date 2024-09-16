@@ -8,7 +8,6 @@ import { Menu } from "./components/Menu/Menu";
 
 function App() {
   const [activeGallery, setActiveGallery] = useState("cars");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const galleryRef = useRef(null);
   const faqRef = useRef(null);
 
@@ -21,8 +20,6 @@ function App() {
           <Menu
             faqRef={faqRef}
             galleryRef={galleryRef}
-            isMenuOpen={isMenuOpen}
-            setIsMenuOpen={setIsMenuOpen}
           />
           <h1 className="text-4xl leading-8 text-dark mt-12 mb-10 font-bebas-neue sm:text-7xl sm:leading-[5rem] sm:mt-32">
             SPRZEDAJEMY SAMOCHODY <br /> Z EUROPY

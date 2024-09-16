@@ -1,6 +1,9 @@
+import { useState } from "react";
 import logo from "../../assets/logo.png";
 
-export const Menu = ({ galleryRef, faqRef, setIsMenuOpen, isMenuOpen }) => {
+export const Menu = ({ galleryRef, faqRef }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const handleScroll = (ref) => {
     ref.current.scrollIntoView({
       behavior: "smooth",
@@ -14,7 +17,6 @@ export const Menu = ({ galleryRef, faqRef, setIsMenuOpen, isMenuOpen }) => {
     <>
       <header className="flex justify-between items-center">
         <img src={logo} alt="logo" />
-
         <>
           <ul className="flex gap-x-6 text-dark hidden sm:flex">
             <li
