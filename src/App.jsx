@@ -24,10 +24,10 @@ function App() {
             isMenuOpen={isMenuOpen}
             setIsMenuOpen={setIsMenuOpen}
           />
-          <h1 className="text-4xl leading-8 text-[#282828] mt-12 mb-10 font-bebas-neue sm:text-7xl sm:leading-[5rem] sm:mt-32">
+          <h1 className="text-4xl leading-8 text-dark mt-12 mb-10 font-bebas-neue sm:text-7xl sm:leading-[5rem] sm:mt-32">
             SPRZEDAJEMY SAMOCHODY <br /> Z EUROPY
           </h1>
-          <p className="leading-6 mb-12 font-roboto text-[#282828]">
+          <p className="leading-6 mb-12 font-roboto text-dark">
             Kup komfortowy pojazd, aby każda podróż <br /> byla wyjątkowym
             przeżyciem
           </p>
@@ -42,10 +42,10 @@ function App() {
             className="absolute right-0 top-[450px]"
           />
           <div className="flex flex-col gap-x-6 gap-y-3 sm:flex-row">
-            <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold text-xs sm:text-base hover:bg-white hover:text-[#0147FF] hover:border-[1px] hover:border-[#0147FF] hover:-m-[1px]">
+            <button className="bg-blue px-6 py-3 rounded-lg text-white font-semibold text-xs sm:text-base hover:bg-white hover:text-blue hover:border-[1px] hover:border-blue hover:-m-[1px]">
               Zobacz zdjecia
             </button>
-            <button className="bg-white px-6 py-3 rounded-lg text-[#0147FF] border-[1px] border-[#0147FF] font-semibold text-xs sm:text-base hover:bg-[#0147FF] hover:text-white duration-300">
+            <button className="bg-white px-6 py-3 rounded-lg text-blue border-[1px] border-blue font-semibold text-xs sm:text-base hover:bg-blue hover:text-white duration-300">
               Zadzwon do nas
             </button>
           </div>
@@ -58,7 +58,7 @@ function App() {
           />
         </main>
       </div>
-      <div className="px-8 sm:px-40 bg-[#282828] py-20">
+      <div className="px-8 sm:px-40 bg-dark py-20">
         <div className="flex flex-col sm:flex-row gap-x-6 text-white ">
           <FaQArticle
             title={
@@ -79,7 +79,7 @@ function App() {
         </div>
       </div>
       <footer
-        className="bg-[#282828] flex justify-between items-center h-[10vh] px-12 sm:px-40 border-t-[1px]"
+        className="bg-dark flex justify-between items-center h-[10vh] px-12 sm:px-40 border-t-[1px]"
         ref={faqRef}
       >
         <h2 className="font-bold text-white">Cars Spot</h2>

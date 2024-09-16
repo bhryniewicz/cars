@@ -16,7 +16,7 @@ export const Menu = ({ galleryRef, faqRef, setIsMenuOpen, isMenuOpen }) => {
         <img src={logo} alt="logo" />
 
         <>
-          <ul className="flex gap-x-6 text-[#282828] hidden sm:flex">
+          <ul className="flex gap-x-6 text-dark hidden sm:flex">
             <li
               className="cursor-pointer"
               onClick={() => handleScroll(galleryRef)}
@@ -27,19 +27,19 @@ export const Menu = ({ galleryRef, faqRef, setIsMenuOpen, isMenuOpen }) => {
               FaQ
             </li>
           </ul>
-          <button className="bg-[#0147FF] px-6 py-3 rounded-lg text-white font-semibold z-10 hidden sm:block hover:bg-white hover:text-[#0147FF] hover:border-[1px] hover:border-[#0147FF] hover:-m-[1px]">
+          <button className="bg-blue px-6 py-3 rounded-lg text-white font-semibold z-10 hidden sm:block hover:bg-white hover:text-blue hover:border-[1px] hover:border-blue hover:-m-[1px]">
             Zadzwon do nas
           </button>
         </>
         <button
-          className="sm:hidden uppercase text-[#0147FF] tracking-widest"
+          className="sm:hidden uppercase text-blue tracking-widest"
           onClick={() => setIsMenuOpen(true)}
         >
           Menu
         </button>
       </header>
       {isMenuOpen && (
-        <div className="w-screen h-screen flex  items-center justify-center  absolute top-0 left-0 z-[1000] bg-[#0147FF] p-20">
+        <div className="w-screen h-screen flex  items-center justify-center  absolute top-0 left-0 z-[1000] bg-blue p-20">
           <ul className="flex flex-col gap-y-6 text-center text-lg text-white">
             <li
               className="cursor-pointer"

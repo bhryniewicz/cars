@@ -7,6 +7,10 @@ export default {
         "bebas-neue": ["Bebas Neue", "sans-serif"],
         roboto: ["Roboto Condensed", "sans-serif"],
       },
+      colors: {
+        blue: "#0147FF",
+        dark: "#282828",
+      },
     },
   },
   plugins: [],
